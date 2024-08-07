@@ -1,0 +1,43 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    background-color: rgb(37, 36, 35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 35px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(48, 45, 45);
+    box-shadow: 0 10px 30px rgb(48, 45, 45);
+    background: repeating-linear-gradient(rgb(51, 87, 76),rgb(24, 56, 49), rgb(19, 43, 75));
+    width: 350px;
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    label, p {
+        color: white;
+        font-size: 24px;
+    }
+    .input-text {
+        width: 300px;
+        height: 30px;
+    }
+    
+}
+
+.resultados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: yellowgreen;
+}
